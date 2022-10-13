@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/oh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Order Mart"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <CheckBox
+        android:id="@+id/it1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oh"
+        android:text="ToothBrush"/>
+
+    <CheckBox
+        android:id="@+id/it2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it1"
+        android:text="ToothPaste" />
+
+    <CheckBox
+        android:id="@+id/it3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it2"
+        android:text="Soap" />
+    <CheckBox
+        android:id="@+id/it4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it3"
+        android:text="Cold Drink"/>
+    <CheckBox
+        android:id="@+id/it5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it4"
+        android:text="Burger"/>
+    <CheckBox
+        android:id="@+id/it6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it5"
+        android:text="Pizza"/>
+    <CheckBox
+        android:id="@+id/it7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it6"
+        android:text="Hair Clip"/>
+    <CheckBox
+        android:id="@+id/it8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it7"
+        android:text="Cake"/>
+    <CheckBox
+        android:id="@+id/it9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it8"
+        android:text="Perfume"/>
+    <CheckBox
+        android:id="@+id/it10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it9"
+        android:text="Shaving Cream"/>
+
+
+    <Button
+        android:id="@+id/o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/it10"
+        android:text="Order"/>
+
+</RelativeLayout>
